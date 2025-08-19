@@ -1,4 +1,5 @@
 import logo from "../img/logo.png";
+import "../Css/Navbar.css";
 
 export default function Navbar() {
   return (
@@ -9,19 +10,29 @@ export default function Navbar() {
       <div className="nav-links">
         <ul>
           <li>
-            <a>Home</a>
+            <a href="#Home" alt="err">
+              Home
+            </a>
           </li>
           <li>
-            <a>About</a>
+            <a href="#About" alt="err">
+              About
+            </a>
           </li>
           <li>
-            <a>Skills</a>
+            <a href="#Skills" alt="err">
+              Skills
+            </a>
           </li>
           <li>
-            <a>Projects</a>
+            <a href="#Projects" alt="err">
+              Projects
+            </a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="#Contact" alt="err">
+              Contact
+            </a>
           </li>
         </ul>
       </div>
