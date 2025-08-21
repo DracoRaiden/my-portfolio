@@ -1,0 +1,41 @@
+.about {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding: 80px 40px;
+}
+
+.pfp {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pfp img {
+    transform: translateY(-70px);
+}
+
+.about-content {
+    width: 45vw;
+}
+
+
+.about-content h1 {
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #C0C0C0;
+    line-height: 150%;
+}

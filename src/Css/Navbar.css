@@ -3,12 +3,12 @@
     justify-content: space-between;
     background-color: black;
     color: white;
-    height: 80px;
+    height: 12vh;
     padding: 0px 100px;
 }
 
 .logo {
-    height: 80px;
+    height: 12vh;
 }
 
 .logo img {
@@ -18,7 +18,7 @@
 .nav-links ul {
     display: flex;
     list-style: none;
-    line-height: 80px;
+    line-height: 12vh;
     gap: 2vw;
 }
 

@@ -2,3 +2,7 @@
   padding: 0px;
   margin: 0px;
 }
+
+section {
+  border-bottom: 0.2px solid grey;
+}
