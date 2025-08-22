@@ -1,5 +1,5 @@
 .hero {
-    height: 88vh;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.9);
     display: flex;
     flex-direction: column;
@@ -69,4 +69,18 @@
     color: black;
     border: 2px solid transparent;
     cursor: pointer;
+}
+
+.hero>div {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

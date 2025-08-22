@@ -3,8 +3,10 @@ import pfp from "../img/profile_picture.jpg";
 export default function About() {
   return (
     <div className="about">
-      <div className="pfp">
-        <img src={pfp} alt="pfp not loading" height={650} />
+      <div className="pfp-border">
+        <div className="pfp">
+          <img src={pfp} alt="pfp not loading" height={650} />
+        </div>
       </div>
       <div className="about-content">
         <h1>About Me</h1>

@@ -6,3 +6,15 @@
 section {
   border-bottom: 0.2px solid grey;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+Footer {
+  background-color: black;
+  height: 10vh;
+  color: #909090;
+  line-height: 10vh;
+  text-align: center;
+}
