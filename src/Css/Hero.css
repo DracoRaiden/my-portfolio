@@ -84,3 +84,45 @@
         transform: translateY(0);
     }
 }
+
+
+@media(width<768px) {
+
+    .hero {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero-title {
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-l1 {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+    .content-l2 {
+        font-size: 19px;
+    }
+
+    .hero-buttons button {
+        height: 55px;
+    }
+
+    .hero-btn1 {
+        width: 220px;
+    }
+
+    .hero-btn2 {
+        width: 180px;
+    }
+
+}

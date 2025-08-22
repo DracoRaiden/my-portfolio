@@ -48,3 +48,22 @@
 .nav-links a:hover {
     color: white;
 }
+
+@media(width<768px) {
+    .logo {
+        width: 90px;
+        padding-left: 10px;
+    }
+
+    .logo img {
+        height: 11vh;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    .nav-links ul {
+        padding-right: 10px;
+    }
+}

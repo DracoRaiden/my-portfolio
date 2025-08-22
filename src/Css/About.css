@@ -49,3 +49,26 @@
     color: #C0C0C0;
     line-height: 150%;
 }
+
+@media(width< 768px) {
+    .about {
+        flex-direction: column;
+        height: 150vh;
+        padding: 60px 20px;
+    }
+
+    .about-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pfp {
+        height: 250px;
+        width: 250px;
+    }
+
+    .pfp-border {
+        height: 260px;
+        width: 260px;
+    }
+}

@@ -1,6 +1,6 @@
 .projects {
     background-color: #0A0A0A;
-    COLOR: white;
+    color: white;
     padding: 5rem 2rem;
     margin: 0px auto;
 }
@@ -62,4 +62,16 @@
     display: flex;
     justify-content: center;
     gap: 40px;
+}
+
+@media(width< 768px) {
+
+    .card {
+        width: 90%;
+    }
+
+    .my-work {
+        flex-direction: column;
+        align-items: center;
+    }
 }

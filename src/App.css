@@ -18,3 +18,10 @@ Footer {
   line-height: 10vh;
   text-align: center;
 }
+
+
+@media (width<768px) {
+  Footer {
+    font-size: 12px;
+  }
+}
