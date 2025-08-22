@@ -13,8 +13,14 @@ export default function Hero() {
         </h2>
       </div>
       <div className="hero-buttons">
-        <button className="hero-btn1">{"</>"} View My Projects</button>
-        <button className="hero-btn2">Contact Me</button>
+        <a href="#my-projects" alt="err">
+          <button className="hero-btn1">{"</>"} View My Projects</button>
+        </a>
+        <a href="#contact-us" alt="err">
+          <button className="hero-btn2">
+            <i class="fa-solid fa-envelope"></i>Contact Me
+          </button>
+        </a>
       </div>
     </div>
   );
