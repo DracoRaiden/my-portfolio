@@ -17,13 +17,13 @@ function App() {
         </section>
       </header>
       <main>
-        <section className="About">
+        <section className="About" id="about-us">
           <About />
         </section>
-        <section>
+        <section className="Projects" id="my-projects">
           <Projects />
         </section>
-        <section>
+        <section id="contact-us">
           <Contact />
         </section>
       </main>

@@ -17,7 +17,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#About" alt="err">
+            <a href="#about-us" alt="err">
               About
             </a>
           </li>
@@ -27,12 +27,12 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#Projects" alt="err">
+            <a href="#my-projects" alt="err">
               Projects
             </a>
           </li>
           <li>
-            <a href="#Contact" alt="err">
+            <a href="#contact-us" alt="err">
               Contact
             </a>
           </li>
