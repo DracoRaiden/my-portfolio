@@ -23,10 +23,40 @@ export default function About() {
           I'm always looking for opportunities to learn, grow, and make a
           positive impact.
         </p>
+
         <div className="academics">
-          <div className="acheivement-1"></div>
-          <div className="acheivement-2"></div>
-          <div className="acheivement-3"></div>
+          <div className="acheivement">
+            <div className="achievement-heading">
+              <div className="bullet"></div>
+              <h2>Cambridge GCE O'Levels @ Beaconhouse (2019-2021)</h2>
+            </div>
+            <div>
+              <p>Result: 8 A* & 1 A • Medal for academic excellence</p>
+            </div>
+          </div>
+          <div className="acheivement">
+            <div className="achievement-heading">
+              <div className="bullet"></div>
+              <h2>
+                Cambridge GCE A'Levels @ Cadet College Hasanabdal (2021-2023)
+              </h2>
+            </div>
+            <div>
+              <p>Result: 3 A* & 1 A • Vice President Computer Club</p>
+            </div>
+          </div>
+          <div className="acheivement">
+            <div className="achievement-heading">
+              <div className="bullet"></div>
+              <h2>B.Sc. (CS) @ GIKI (2023-2027)</h2>
+            </div>
+            <div>
+              <p id="last">
+                Current CGPA: 3.50 • Dean's List of Honours x2 (Fall 2023 &
+                Spring 2024)
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

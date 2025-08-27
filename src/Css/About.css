@@ -1,74 +1,127 @@
 .about {
-    background-color: black;
-    color: white;
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-    padding: 80px 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 80px 40px;
 }
 
 .pfp {
-    height: 300px;
-    width: 300px;
-    border: 3px solid black;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 300px;
+  width: 300px;
+  border: 3px solid black;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pfp-border {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    height: 315px;
-    width: 315px;
-    border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 315px;
+  width: 315px;
+  border-radius: 50%;
 }
 
 .pfp img {
-    transform: translateY(-70px);
+  transform: translateY(-70px);
 }
 
 .about-content {
-    width: 45vw;
+  width: 45vw;
 }
 
-
 .about-content h1 {
-    font-size: 48px;
-    margin-bottom: 24px;
+  font-size: 48px;
+  margin-bottom: 24px;
 }
 
 .about-content p {
-    font-size: 18px;
-    color: #C0C0C0;
-    line-height: 150%;
+  font-size: 18px;
+  color: #c0c0c0;
+  line-height: 150%;
+  padding-bottom: 32px;
 }
 
-@media(width< 768px) {
-    .about {
-        flex-direction: column;
-        height: 150vh;
-        padding: 60px 20px;
-    }
+.academics {
+  border-left: 3px solid white;
+  padding-left: 20px;
+}
 
-    .about-content {
-        width: 100%;
-        text-align: center;
-    }
+.academics h2 {
+  padding-bottom: 8px;
+  font-size: 20px;
+}
 
-    .pfp {
-        height: 250px;
-        width: 250px;
-    }
+#last {
+  padding-bottom: 0px;
+}
 
-    .pfp-border {
-        height: 260px;
-        width: 260px;
-    }
+.bullet {
+  min-height: 10px;
+  min-width: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.achievement-heading {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.acheivement p {
+  padding-left: 50px;
+}
+
+@media (width< 768px) {
+  .about {
+    flex-direction: column;
+    height: 180vh;
+    padding: 60px 20px;
+  }
+
+  .about-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .pfp {
+    height: 250px;
+    width: 250px;
+  }
+
+  .pfp-border {
+    height: 260px;
+    width: 260px;
+  }
+
+  .academics {
+    padding-left: 15px;
+  }
+
+  .academics h2 {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .academics p {
+    font-size: 13px;
+  }
+
+  .achievement-heading {
+    gap: 15px;
+  }
+
+  .acheivement p {
+    padding-left: 23px;
+    text-align: left;
+  }
 }
