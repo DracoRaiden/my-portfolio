@@ -1,0 +1,102 @@
+.skills h1 {
+  margin-bottom: 48px;
+  font-size: 48px;
+  text-align: center;
+}
+
+.skills {
+  padding: 80px;
+  background-color: black;
+  color: white;
+}
+
+.skill-card {
+  width: 35%;
+  transition: all 0.2s;
+  border: 2px solid #2a2a2a;
+  border-radius: 20px;
+  padding: 32px;
+}
+
+.skill-card:hover {
+  background-color: #2a2a2a;
+}
+
+.skill-heading {
+  margin-bottom: 24px;
+}
+
+.l-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.skill-level {
+  border-radius: 12px;
+  padding: 4px 12px;
+  border: 1px solid #2a2a2a;
+  color: #909090;
+  font-size: 14px;
+}
+
+.outer-bar {
+  height: 5px;
+  width: 100%;
+  border: 0.2px solid #2a2a2a;
+  border-radius: 12px;
+}
+
+.inner-bar {
+  height: 6px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.l1 {
+  margin-bottom: 20px;
+}
+
+.advanced {
+  width: 95%;
+}
+
+.l-title h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.intermediate {
+  width: 80%;
+}
+
+.skill-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.learning {
+  width: 50%;
+}
+
+.future {
+  width: 0%;
+}
+
+.beginer {
+  width: 60%;
+}
+
+@media (width< 768px) {
+  .skills h1 {
+    font-size: 32px;
+  }
+  .skills {
+    padding: 80px 10px;
+  }
+  .skill-card {
+    width: 80%;
+  }
+}

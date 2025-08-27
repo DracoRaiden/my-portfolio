@@ -103,6 +103,13 @@
     width: 260px;
   }
 
+  .about-content h1 {
+    font-size: 32px;
+  }
+  .about-content p {
+    font-size: 15px;
+  }
+
   .academics {
     padding-left: 15px;
   }

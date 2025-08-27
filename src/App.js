@@ -4,6 +4,7 @@ import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
+import Skills from "./Components/Skills";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       <main>
         <section className="About" id="about-us">
           <About />
+        </section>
+        <section id="Skills">
+          <Skills />
         </section>
         <section className="Projects" id="my-projects">
           <Projects />
