@@ -1,136 +1,164 @@
 .hero {
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.9);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .hero-title {
-    font-size: 48px;
-    margin-bottom: 16px;
-    font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 16px;
+  font-weight: 800;
 }
 
 .hero-content {
-    margin-bottom: 32px;
-    color: #C0C0C0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-bottom: 32px;
+  color: #c0c0c0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .content-l1 {
-    color: white;
-    font-weight: 400
+  color: white;
+  font-weight: 400;
 }
 
 .content-l2 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
-
 .hero-buttons {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .hero-buttons button {
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 50px;
-    height: 60px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50px;
+  height: 60px;
 }
 
 .hero-btn1 {
-    background-color: white;
-    width: 250px;
-    color: black;
-    /* border: 1px solid transparent; */
+  background-color: white;
+  width: 250px;
+  color: black;
+  /* border: 1px solid transparent; */
 }
 
 .hero-btn1:hover {
-    border: 1px solid lightblue;
-    cursor: pointer;
+  border: 1px solid lightblue;
+  cursor: pointer;
 }
 
 .hero-btn2 {
-    background-color: transparent;
-    width: 200px;
-    color: white;
-    border: 2px solid white;
-    transition: all 0.2s;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
+  background-color: transparent;
+  width: 200px;
+  color: white;
+  border: 2px solid white;
+  transition: all 0.2s;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-buttons a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .hero-btn2:hover {
-    background-color: white;
-    color: black;
-    border: 2px solid transparent;
-    cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid transparent;
+  cursor: pointer;
 }
 
-.hero>div {
-    opacity: 0;
-    transform: translateY(50px);
-    animation: fadeUp 0.8s ease forwards;
+.hero > div {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.hero-title {
+  display: inline-block;
+}
+
+.text {
+  border-right: 2px solid white;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 6s steps(21) infinite,
+    cursor 0.4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+
+  33% {
+    width: 100%;
+  }
+
+  100% {
+    width: 100%;
+  }
 }
 
 @keyframes fadeUp {
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
+@media (width<768px) {
+  .hero {
+    text-align: center;
+    padding: 20px;
+  }
 
-@media(width<768px) {
+  .hero-title {
+    font-size: 18px;
+  }
 
-    .hero {
-        text-align: center;
-        padding: 20px;
-    }
+  .hero-buttons {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .hero-title {
-        font-size: 18px;
-    }
+  .content-l1 {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
 
-    .hero-buttons {
-        flex-direction: column;
-        gap: 20px;
-        justify-content: center;
-        align-items: center;
-    }
+  .content-l2 {
+    font-size: 19px;
+  }
 
-    .content-l1 {
-        font-size: 19px;
-        margin-bottom: 10px;
-    }
+  .hero-buttons button {
+    height: 55px;
+  }
 
-    .content-l2 {
-        font-size: 19px;
-    }
+  .hero-btn1 {
+    width: 220px;
+  }
 
-    .hero-buttons button {
-        height: 55px;
-    }
-
-    .hero-btn1 {
-        width: 220px;
-    }
-
-    .hero-btn2 {
-        width: 180px;
-    }
-
+  .hero-btn2 {
+    width: 180px;
+  }
 }
