@@ -47,10 +47,6 @@
   background-color: white;
   width: 250px;
   color: black;
-  display: flex;
-  gap: 5px;
-  align-items: center;
-  justify-content: center;
   /* border: 1px solid transparent; */
 }
 

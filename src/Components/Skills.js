@@ -6,9 +6,7 @@ export default function Skills() {
       <h1>Technical Skills</h1>
       <div className="skill-cards">
         <div className="skill-card">
-          <h2 className="skill-heading">
-            <i class="fa-solid fa-code"></i>Programming Languages
-          </h2>
+          <h2 className="skill-heading"> Programming Languages</h2>
           <div className="l1">
             <div className="l-title">
               <h3>C++</h3>
@@ -55,9 +53,7 @@ export default function Skills() {
           </div>
         </div>
         <div className="skill-card">
-          <h2 className="skill-heading">
-            <i class="fa-solid fa-globe"></i>Web Development
-          </h2>
+          <h2 className="skill-heading">Web Development</h2>
           <div className="l1">
             <div className="l-title">
               <h3>HTML/CSS</h3>
@@ -104,9 +100,7 @@ export default function Skills() {
           </div>
         </div>
         <div className="skill-card">
-          <h2 className="skill-heading">
-            <i class="fa-solid fa-database"></i>Database & Tools
-          </h2>
+          <h2 className="skill-heading">Database & Tools</h2>
           <div className="l1">
             <div className="l-title">
               <h3>SQL Server</h3>
@@ -153,9 +147,7 @@ export default function Skills() {
           </div>
         </div>
         <div className="skill-card">
-          <h2 className="skill-heading">
-            <i class="fa-solid fa-shield-halved"></i>Data Science & Others
-          </h2>
+          <h2 className="skill-heading">Data Science & Others</h2>
           <div className="l1">
             <div className="l-title">
               <h3>Power BI</h3>

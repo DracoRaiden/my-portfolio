@@ -14,9 +14,7 @@ export default function Hero() {
       </div>
       <div className="hero-buttons">
         <a href="#my-projects" alt="err">
-          <button className="hero-btn1">
-            <i class="fa-solid fa-code"></i>View My Projects
-          </button>
+          <button className="hero-btn1">{"</>"} View My Projects</button>
         </a>
         <a href="#contact-us" alt="err">
           <button className="hero-btn2">
