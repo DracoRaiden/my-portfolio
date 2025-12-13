@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="hero">
       <div className="hero-title">
-        <h1 className="text">Muhammad Ammar Saleem</h1>
+        <h1 className="text">M.Ammar Saleem</h1>
       </div>
       <div className="hero-content">
         <h2 className="content-l1">Computer Scientist | Front-End Developer</h2>
