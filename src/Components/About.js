@@ -42,7 +42,7 @@ export default function About() {
               </h2>
             </div>
             <div>
-              <p>Result: 3 A* & 1 A • Vice President Computer Club</p>
+              <p>Result: 2 A* & 2 A • Vice President Computer Club</p>
             </div>
           </div>
           <div className="acheivement">

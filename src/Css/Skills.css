@@ -70,6 +70,10 @@
   width: 80%;
 }
 
+.proficient {
+  width: 70%;
+}
+
 .skill-cards {
   display: flex;
   flex-wrap: wrap;

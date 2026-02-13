@@ -193,6 +193,53 @@ export default function Skills() {
             </div>
           </div>
         </div>
+        <div className="skill-card">
+          <h2 className="skill-heading">Graphic Design & Video Editing</h2>
+          <div className="l1">
+            <div className="l-title">
+              <h3>Canva</h3>
+              <div className="skill-level">
+                <p>Advanced</p>
+              </div>
+            </div>
+            <div className="outer-bar">
+              <div className="inner-bar advanced"></div>
+            </div>
+          </div>
+          <div className="l1">
+            <div className="l-title">
+              <h3>Adobe Illustrator</h3>
+              <div className="skill-level">
+                <p>Intermediate</p>
+              </div>
+            </div>
+            <div className="outer-bar">
+              <div className="inner-bar intermediate"></div>
+            </div>
+          </div>
+          <div className="l1">
+            <div className="l-title">
+              <h3>Adobe Photoshop</h3>
+              <div className="skill-level">
+                <p>Proficient</p>
+              </div>
+            </div>
+            <div className="outer-bar">
+              <div className="inner-bar proficient"></div>
+            </div>
+          </div>
+          <div className="l1">
+            <div className="l-title">
+              <h3>Adobe Premiere Pro CC</h3>
+              <div className="skill-level">
+                <p>Proficient</p>
+              </div>
+            </div>
+            <div className="outer-bar">
+              <div className="inner-bar proficient"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
